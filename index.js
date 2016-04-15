@@ -9,7 +9,7 @@ var website = require("./la1api");
 
 var Clifford = require('./bots/clifford'),
   Stephen = require('./bots/stephen'),
-  Cynthia = require('./bots/cynthia');
+  Cynthia = require('./bots/cynthia'),
   Joe = require('./bots/Joe');
   
 var stephen,
