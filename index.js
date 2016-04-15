@@ -10,9 +10,12 @@ var website = require("./la1api");
 var Clifford = require('./bots/clifford'),
   Stephen = require('./bots/stephen'),
   Cynthia = require('./bots/cynthia');
+  Joe = require('./bots/Joe');
+  
 var stephen,
   cynthia,
-  clifford;
+  clifford,
+  joe;
 
 
 var bot = new SlackBot({
@@ -25,6 +28,8 @@ bot.on('start', function() {
   stephen = new Stephen(bot);
   cynthia = new Cynthia(bot);
   clifford = new Clifford(bot);
+  joe = new Joe(bot);
+  
 
 });
 
