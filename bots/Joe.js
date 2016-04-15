@@ -26,7 +26,7 @@ function Joe(bot) {
 
   /*
    *
-   * Defining some things Stephen can do
+   * Defining some things Joe can do
    *
    */
   this.postToChannel = function(channel, message) {
